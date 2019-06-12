@@ -2458,13 +2458,20 @@ ul {
 .banner_part {
   height: 1000px;
   position: relative;
-  background-image: url(../img/banner_bg_1.png);
+  
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: left bottom;
-  z-index: 2;
+  background-size: 15%;
+  background-position: left-bottom;
+  z-index: 10;
 }
 
+.tt{
+  position: absolute;
+  left: 190%;
+  top: 25%;
+  width: 1200%;
+
+}
 @media (max-width: 575px) {
   /* line 2, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_banner.scss */
   .banner_part {
@@ -2504,8 +2511,7 @@ ul {
   }
 }
 
-/* line 29, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_banner.scss */
-.banner_part:after {
+/* line 29, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_banner.scss .banner_part:after {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -2515,7 +2521,8 @@ ul {
   bottom: -74px;
   z-index: -1;
   background: url(../img/banner_bg.png) top right no-repeat;
-}
+}*/
+
 
 @media (max-width: 575px) {
   /* line 29, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_banner.scss */
